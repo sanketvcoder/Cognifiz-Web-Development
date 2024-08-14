@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-my">
+        <form action="">
+            <div class="first-name  box">
+                <label for="firstName">First Name</label>
+                <div class="first"></div>
+                <input id="firstName" type="text" placeholder="Enter your first name" onchange="changeFirstName()" required>
+            </div>
+            <div class="last-name  box">
+                <label for="lastName">Last Name</label>
+                <div class="last"></div>
+                <input id="lastName" type="text" placeholder="Enter your last name" onchange="changeLastName()" required>
+            </div>
+            <div class="phone-num  box">
+                <label for="phone">Phone Number</label>
+                <div class="phoneNum"></div>
+                <input id="phone" type="number" class="phone-number" placeholder="Enter your phone number" onchange="changePhone()" required>
+            </div>
+            <div class="btn box">
+                <button type="button" onclick="btnClick()">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

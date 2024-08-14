@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .container {
+            width: 900px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: "pic1 pic1 pic2" "pic3 pic4 pic5" "pic3 pic6 pic5";
+            gap: 10px;
+        }
+        
+        .container div {
+            position: relative;
+        }
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .pic1 {
+            grid-area: pic1;
+        }
+        
+        .pic2 {
+            grid-area: pic2;
+        }
+        
+        .pic3 {
+            grid-area: pic3;
+        }
+        
+        .pic4 {
+            grid-area: pic4;
+        }
+        
+        .pic5 {
+            grid-area: pic5;
+        }
+        
+        .pic6 {
+            grid-area: pic6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pic1"><img src="https://static.vecteezy.com/system/resources/thumbnails/001/971/264/small_2x/beautiful-cherry-blossom-with-bokeh-lights-background-concept-free-vector.jpg" alt=""></div>
+        <div class="pic2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPs47KCvWoxKvwdx66VWXnxgm1Pr5H9tI-w&s" alt=""></div>
+        <div class="pic3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFYbmfXOHsRT_AKOac2c30aF4z4nWNiKS_tA&s" alt=""></div>
+        <div class="pic4"><img src="https://png.pngtree.com/thumb_back/fh260/background/20230615/pngtree-landscape-landscape-photo-image_2902263.jpg" alt=""></div>
+        <div class="pic5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJQylYjVFbcs_IQlD4OpVdtOL_R4p8Lxr9PmWy8l0N7f_qjRE2dyCD0Rr2FkKDDlGOoAA&usqp=CAU" alt=""></div>
+        <div class="pic6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-d63bCnALdKClFzsol2I6ssG87_sTK8FaA&s" alt=""></div>
+    </div>
+</body>
+
+</html>

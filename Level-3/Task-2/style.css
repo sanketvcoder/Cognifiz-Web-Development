@@ -1,0 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.sidebar {
+    padding: 20px;
+    border-right: 5px solid #ffcc00;
+    /* Adjust the color and size */
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.tabs ul {
+    background-color: #333;
+}
+
+.tabs ul li a {
+    color: #fff;
+}
+
+.tabs ul li.is-active a {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.box h3 {
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.button.is-link {
+    background-color: #ffcc00;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.button.is-link:hover {
+    background-color: #f1c40f;
+}
+
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+    }
+}
+
+.button.is-primary:hover {
+    background-color: #2366d1;
+    border-color: #2366d1;
+}
+
+.button.is-primary:active {
+    background-color: #1b4f9c;
+    border-color: #1b4f9c;
+}
+
+.custom-hover:hover {
+    background-color: #004080;
+    /* A darker shade of blue */
+    border-color: #004080;
+}
